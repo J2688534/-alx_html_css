@@ -1,0 +1,39 @@
+/* Apply Flexbox to the body and make it a column */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Apply Flexbox to main and make it a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Let it take available space */
+}
+
+/* Article takes 2 parts of the space (2/3) */
+article {
+    flex: 2;
+    overflow-y: auto; /* Allows vertical scrolling */
+    padding: 10px;
+}
+
+/* Aside takes 1 part of the space (1/3) */
+aside {
+    flex: 1;
+    overflow-y: auto; /* Allows vertical scrolling */
+    padding: 10px;
+}
+
+/* Optional: Give some visual spacing */
+header, footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Optional: Visual styling for structure */
+main, article, aside {
+    border: 1px solid #ccc;
+}
