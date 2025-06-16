@@ -63,6 +63,16 @@ h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+article h2 {
+    color: #1e90ff;
+}
+
+article p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
